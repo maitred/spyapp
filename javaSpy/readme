@@ -1,0 +1,3 @@
+The Spy appliance is triggered by the vocabulary “Spy <args>”. The Spy appliance reports weather a process of name “args” is currently running on the server. It also reports any changes in the status of the process of name “args” in the future,  i.e if the process isn’t running, and then starts running, Spy sends a message to the channel, and if the process is running but then stops running, Spy sends a message to the channel.
+
+java Main to run
